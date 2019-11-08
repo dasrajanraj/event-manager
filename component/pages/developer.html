@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+  <head>
+   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+   
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css" />
+    
+
+    <title>Contact us</title>
+    <style type="text/css">
+    body{
+      background-image: linear-gradient(to bottom, #240a2c, #4E2E54);
+    color: #000000;
+    overflow: scroll;
+    overflow-x: hidden;
+    }  
+		.card{
+			height:90%;
+		}
+		.container{
+			width: 100%;
+			height: 100%;
+			margin: auto auto;
+			padding: 0;
+		}
+   
+.gallery-block{padding-bottom: 60px; 
+  padding-top: 60px;
+}
+.gallery-block .heading{margin-bottom: 50px; 
+  text-align: center;
+}
+
+.gallery-block .heading h1{font-weight:900px;
+  font-size: 2.8rem; 
+  text-transform: uppercase; 
+  color: #ffffff;
+}
+ .heading hr{
+  border-color: #ffffff;
+}
+
+.gallery-block.cards-gallery h6{font-size: 17px; 
+  font-weight: bold;
+}
+
+.gallery-block.cards-gallery .card{
+  transition: 0.4s easy;
+}
+.gallery-block.cards-gallery .card img{
+  box-shadow: 0px 2px 10px rgba(0,0,0,0.15);
+}
+.gallery-block.cards-gallery .card-body{
+  text-align: center;
+}
+.gallery-block.cards-gallery .card-body p{
+  font-size: 15px;
+}
+/*.gallery-block.cards-gallery a{color:#212529; }*/
+.gallery-block.cards-gallery a:hover{
+  text-decoration: none;
+}
+.gallery-block.cards-gallery  .card{
+  margin-bottom: 30px;
+
+
+  box-shadow: 0px 2px 10px rgba(0,0,0,0.15);
+}
+.inner {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin:auto auto;
+		
+    
+  }
+
+
+  
+
+@media (min-width: 576px) {
+
+  .gallery-block .transform-on-hover:hover {
+      transform: translateY(-10px) scale(1.02);
+      box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important; 
+  }
+}
+    </style>
+  </head>
+  <body>
+    <div class="inner">
+   <section class="gallery-block cards-gallery">
+   	<div class="container">
+   		<div class="heading" id="del">
+   			<h1>Devs</h1>
+        <hr width=50%>
+   		</div>
+   		<div class="row">
+   			<div class="col-md-6 col-lg-4" id="raj">
+   				<div class="card border-0 transform-on-hover">
+   					<a class="lightbox" href="images/F4.jpg"><img src="img/devimg/rajan.png" class="card-img-top"></a>
+   					<div class="card-body">
+   						<h6>Rajan Raj Das</h6>
+							 <div id="rajan">
+
+								</div>	
+   					</div>
+   				</div>
+   			</div>
+   			
+   			<div class="col-md-6 col-lg-4" id="shy">
+   				<div class="card border-0 transform-on-hover">
+   					<a class="lightbox" href="images/F5.jpg"><img src="img/devimg/shyam.jpg" class="card-img-top"></a>
+   					<div class="card-body">
+   						<h6>Shyam Gupta</h6>
+							 <div id="shyam">
+
+								</div>	
+   					</div>
+   				</div>
+   			</div>
+   			
+   			<div class="col-md-6 col-lg-4" id="var">
+   				<div class="card border-0 transform-on-hover">
+   					<a class="lightbox" href="images/F6.jpg"><img src="img/devimg/varshini.png" class="card-img-top"></a>
+   					<div class="card-body">
+   						<h6>Varshini R</h6>
+							 <div id="varshini">
+
+								</div>	
+   					</div>
+   				</div>
+				 </div>
+				 </div>
+   	</div>
+   </section>
+ </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+    <script type="text/javascript">
+      setTimeout(function(){document.getElementById("del").style.visibility="visible";
+                  document.getElementById("del").classList.add("animate");},1000);
+									 $('#raj').hover(function(event){
+										console.log("mouse enters");
+										$( '#rajan' ).append( $( "<p class='text-muted card-text'>Technologies: Web Development, Window Application Development</p><p class='text-muted card-text'>Insight: It always seems impossible until it's done</p>" ) );	
+										event.stopPropagation();
+										},function(event){
+										console.log("mouse is leave");
+										$( '#raj p' ).remove();
+   								});
+
+
+									 $('#shy').hover(function(event){
+										console.log("mouse enters");
+										$( '#shyam' ).append( $( "<p class='text-muted card-text'>Technologies: php</p><p class='text-muted card-text'>Insight: Spending less and investing More.</p>" ) );	
+										event.stopPropagation();
+										},function(event){
+										console.log("mouse is leave");
+										$( '#shu p' ).remove();
+   								});
+
+
+									 $('#var').hover(function(event){
+										console.log("mouse enters");
+										$( '#varshini' ).append( $( "<p class='text-muted card-text'>Technologies: Web Dev, Python </p><p class='text-muted card-text'>Insight: Any pizza is a personal pizza if you believe in yourself.</p>" ) );	
+										event.stopPropagation();
+										},function(event){
+										console.log("mouse is leave");
+										$( '#var p' ).remove();
+   								});
+    </script>
+    
+    
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
