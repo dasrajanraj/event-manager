@@ -1,5 +1,65 @@
 <!DOCTYPE html>
 <head>
+    <style>
+        .mySidenav{
+    z-index: 1000 !important;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-weight: bolder;
+    text-transform: uppercase;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    z-index: 400 !important;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    font-size: 36px;
+    margin-right: 1 0px;
+  }
+  .transparent-element{
+    color: black;/*define this property with js for each page*/
+    float: left;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    display: block;
+    padding: 5px 20px 5px 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+.transparent-element a{
+    color:black;
+}
+.transparent-element:hover{
+    background: #1d2951;
+}
+
+    </style>
     <meta charset="utf-8">
     <title>Experience</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -17,30 +77,45 @@
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
     <!-- Main Stylesheet File -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
 </head>
 
 <body>
-    <header id="header">
-        <div class="container">
-
+    <!-- <header id="header">
+        <div class="container"> -->
+<!-- 
             <div id="logo" class="pull-left">
       
                 <h1><a href="#main">E<span>xperi</span>ence</a></h1>
+            </div> -->
+            <div class="header-element">
+                <!--<div class="transparent-element">
+                  <a>The Team</a>
+                </div>-->
+                <div class="transparent-element" onclick="openNav()">&#9776</div>
+                <div id="mySidenav" class="sidenav">
+                    <a class="closebtn" onclick="closeNav()" style="color:rgb(255,99,71)">&times;</a>
+                    <a href="../../profile.php">Profile</a>
+                    <a href="../../index.php">Home</a>
+                    <a href="#">Experience</a>
+                    <a href="../../event.php">Event Categories</a>
+                    <a href="../pages/timeline/index2.html">Timeline</a>
+                    <a href="../pages/developer.html">Team</a>
+                  </div>
             </div>
-            <nav id="nav-menu-container">
+            <!-- <nav id="nav-menu-container">
                 <ul class="nav-menu">
-                    <li><a href="#">Profile</a></li>
-                    <li><a href="../../index.html">Home</a></li>
-                    <li class="menu-active"><a href="#">Experience</a></li>
-                    <li><a href="#">Event Categories</a></li>
+                    <li><a href="../../profile.php">Profile</a></li>
+                    <li><a href="../../index.php">Home</a></li>
+                    <li class="menu-active"><a href="./exp.html">Experience</a></li>
+                    <li><a href="../../event.php">Event Categories</a></li>
                     <li><a href="./timeline/index2.html">Timeline</a></li>
                     <li><a href="./developer.html">Team</a></li>
                 </ul>
-            </nav>
+            </nav> -->
             <!-- #nav-menu-container -->
-        </div>
-    </header>
+        <!-- </div>
+    </header> -->
     <!-- #header -->
 
 
@@ -78,8 +153,8 @@
 
                 <div class="col-lg-3 col-md-4">
                     <div class="venue-gallery">
-                        <a href="img/venue-gallery/1.png" class="venobox" data-gall="venue-gallery">
-                            <img src="img/venue-gallery/1.png" alt="" class="img-fluid">
+                        <a href="img/venue-gallery/1.jpg" class="venobox" data-gall="venue-gallery">
+                            <img src="img/venue-gallery/1.jpg" alt="" class="img-fluid">
                         </a>
                     </div>
                 </div>
@@ -154,6 +229,24 @@
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <!-- Template Main Javascript File -->
     <script src="js/main.js"></script>
+    <script>
+        function openNav() {
+  document.getElementById("mySidenav").style.width = "350px";
+  document.getElementById("mySidenav").style.zIndex="1000"
+  document.getElementById("main").style.marginRight = "350px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginRight= "0";
+  document.body.style.backgroundColor = "white";
+}
+
+function popScr(){
+  console.log("dev is clicked");
+}
+    </script>
 </body>
 
 </html>

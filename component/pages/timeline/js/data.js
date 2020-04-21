@@ -18,12 +18,12 @@ var codropsEvents = {
 		{content : '<span> {\'10-DD-2014\' : {content : \'Something\', startDate : 10, endDate : 20}}</span>', startDate : 10, endDate : 20},
 		{content : '<span>Ex: {\'10-DD-2014\' : {content : \'Something\', endDate : 20}}</span>', endDate: 20}],
 */
-'03-07-2019':[
+'04-12-2019':[
  {content : '<span><p>OLYMPIC TRY OUTS&nbsp&nbsp&nbsp&nbspBASKETBALL COURT,<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSTADIUM,INDOOR<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSTADIUM</p><p><br>TIME: 2pm TO 7pm</p></span>'}
  
  ],
 
-'03-08-2019':[
+'05-12-2019':[
 {content:'<span><p>FLASH MOB/THEME DAY 1&nbsp&nbsp&nbsp&nbsp&nbsp&nbspALL THE BLOCKS<br>TIME: 10am TO 12</p></span>'},
 {content : '<span><p>OLYMPIC TRY OUTS&nbsp&nbsp&nbsp&nbspBASKETBALL COURT,<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSTADIUM,INDOOR<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSTADIUM</p><p><br>TIME: 2pm TO 7pm</p></span>'}
  ],
